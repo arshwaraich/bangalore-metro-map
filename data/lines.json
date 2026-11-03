@@ -1,0 +1,96 @@
+{
+  "asOf": "2026-11-03",
+  "lines": [
+    {
+      "id": "purple", "name": "Purple Line", "color": "#8e3fbf",
+      "sections": [
+        { "name": "Whitefield (Kadugodi) – Challaghatta", "status": "open", "osmRelation": 1798771, "opened": "2011–2023" }
+      ]
+    },
+    {
+      "id": "green", "name": "Green Line", "color": "#1f9d55",
+      "sections": [
+        { "name": "Madavara – Silk Institute", "status": "open", "osmRelation": 1798772, "opened": "2014–2024" }
+      ]
+    },
+    {
+      "id": "yellow", "name": "Yellow Line", "color": "#e3b100",
+      "sections": [
+        { "name": "RV Road – Bommasandra", "status": "open", "osmRelation": 19421927, "opened": "Aug 2025" }
+      ]
+    },
+    {
+      "id": "pink", "name": "Pink Line", "color": "#e8569b",
+      "sections": [
+        {
+          "name": "Kalena Agrahara – Tavarekere (elevated)", "status": "soon",
+          "eta": "13 Nov 2026", "etaNote": "CMRS safety clearance done; public service reported from 15 Nov",
+          "stations": ["Kalena Agrahara", "Hulimavu", "IIMB", "JP Nagar 4th Phase", "Jayadeva Hospital", "Tavarekere"]
+        },
+        {
+          "name": "Tavarekere – Nagawara (underground)", "status": "construction",
+          "eta": "mid-2027", "etaNote": "targets reported between Mar and May 2027",
+          "stations": ["Tavarekere", "Dairy Circle", "Lakkasandra", "Langford Town", "Rashtriya Military School",
+                       "Mahatma Gandhi Road", "Shivajinagar", "Cantonment", "Pottery Town", "Tannery Road",
+                       "Venkateshapura", "Kadugundanahalli", "Nagawara"]
+        }
+      ]
+    },
+    {
+      "id": "blue", "name": "Blue Line", "color": "#2f6fd6",
+      "sections": [
+        {
+          "name": "Central Silk Board – KR Puram (Phase 2A)", "status": "construction",
+          "eta": "2027", "etaNote": "trial runs from Nov 2026; May 2027 target reported, Wikipedia lists Dec 2027",
+          "stations": ["Central Silk Board", "HSR Layout", "Agara Lake", "Ibbaluru", "Prestige Bellandur",
+                       "Embassy Tech Village Kadubeesanahalli", "Kodibisanahalli", "Marathahalli", "ISRO",
+                       "Doddanakundi", "Bagmane DRDO Sports Complex", "Saraswathi Nagar", "Krishnarajapuram"]
+        },
+        {
+          "name": "KR Puram – Airport (Phase 2B)", "status": "construction",
+          "eta": "late 2027", "etaNote": "Hebbal–Airport Jun 2027 and KR Puram–Hebbal Dec 2027 per govt review; Wikipedia lists Dec 2028",
+          "stations": ["Krishnarajapuram", "Kasturinagara", "Horamavu", "HRBR Layout", "Kalyan Nagar", "HBR Layout",
+                       "Nagawara", "Veerannapalya", "Kempapura", "Hebbal", "Kodigehalli", "Jakkur Cross", "Yelahanka",
+                       "Bagalur Cross", "Doddajala", "Airport City", "KIAL Terminals"]
+        }
+      ]
+    },
+    {
+      "id": "orange", "name": "Orange Line", "color": "#ef7a1a",
+      "sections": [
+        {
+          "name": "JP Nagar 4th Phase – Kempapura (Phase 3)", "status": "approved",
+          "eta": "Apr 2032", "etaNote": "JICA-funded; civil tenders out 2026; deadline moved from May 2031",
+          "order": "greedy",
+          "stations": ["JP Nagar 4th Phase", "JP Nagar 5th Phase", "JP Nagar", "Kadirenahalli", "Kamakhya Junction",
+                       "Hosakerehalli", "Dwarka Nagar", "Mysuru Road", "Nagarbhavi Circle", "BDA Complex Nagarbhavi",
+                       "Papareddypalya", "Freedom Fighters' Colony", "Vinayaka Layout", "Sumanahalli Cross",
+                       "Chowdeshwari Nagara", "Kanteerava Nagar", "Peenya", "BEL Circle", "Muthyala Nagar",
+                       "Nagashettyhalli", "Hebbal", "Kempapura"]
+        },
+        {
+          "name": "Hosahalli – Kadabagere (Phase 3)", "status": "approved",
+          "eta": "Apr 2032", "etaNote": "second Phase 3 corridor, along Magadi Road",
+          "order": "greedy",
+          "stations": ["Hosahalli", "KHB Colony", "Kamakshipalya", "Sumanahalli Cross", "Sunkadakatte", "Herohalli",
+                       "Byadarahalli", "Kamath Layout", "Kadabagere"]
+        }
+      ]
+    },
+    {
+      "id": "red", "name": "Red Line", "color": "#d63a3a",
+      "sections": [
+        {
+          "name": "Hebbal – Sarjapur (Phase 3A)", "status": "proposed",
+          "eta": "2033", "etaNote": "state-approved; revised DPR awaiting Union Cabinet nod",
+          "order": "greedy",
+          "stations": ["Hebbal", "Ganga Nagar", "Mekhri Circle", "Palace Guttahalli", "Bengaluru Golf Course",
+                       "Basaveshwara Circle", "KR Circle", "Town Hall", "Shanthi Nagar", "NIMHANS", "Dairy Circle",
+                       "Koramangala 2nd Block", "Koramangala 3rd Block", "Jakkasandra", "Agara", "Ibbalur",
+                       "Bellandur Gate", "Kaikondrahalli", "Doddakanelli", "Kada Agrahara Road", "Carmelaram",
+                       "Ambedkar Nagar", "Muthanallur Cross", "Dommasandra", "Sompura", "Sarjapura"]
+        }
+      ]
+    }
+  ]
+}
